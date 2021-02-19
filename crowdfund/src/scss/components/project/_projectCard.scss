@@ -1,0 +1,74 @@
+.project-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 50%;
+  margin: 0 auto;
+  font-family: "Commissioner", sans-serif;
+  justify-content: center;
+
+  .project-card-header {
+    text-align: center;
+
+    h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 1.7rem;
+      margin-top: 1rem;
+      color: hsl(0, 0%, 48%);
+    }
+
+    .project-card-logo {
+      // Styles for Project Logo on card
+    }
+
+    .card-header-btns {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 4rem;
+
+      .back-project {
+        width: 20rem;
+        height: 5rem;
+        border-radius: 50px;
+        background-color: hsl(176, 50%, 47%);
+        border: none;
+        cursor: pointer;
+        color: white;
+        font-weight: 900;
+        transition: 0.4s all;
+
+        &:hover {
+          background-color: hsl(176, 72%, 28%);
+          transition: 0.4s all;
+        }
+      }
+
+      .bookmark-project {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        color: hsl(0, 0%, 48%);
+        font-weight: 900;
+        border: none;
+
+        .Bookmark-logo {
+          circle {
+            fill: gray;
+          }
+        }
+
+        span {
+          margin-left: 1rem;
+        }
+      }
+    }
+  }
+
+  .project-card-stats {
+    text-align: center;
+  }
+}

@@ -1,0 +1,36 @@
+.header-hero {
+  min-width: 100%;
+}
+
+.header-nav {
+  position: absolute;
+  display: flex;
+  width: 89%;
+  justify-content: space-between;
+  font-family: "Commissioner", sans-serif;
+  align-items: center;
+  top: 7%;
+  color: white;
+
+  .header-anchor {
+    padding-right: 0rem;
+  }
+
+  h2 {
+    padding-left: 29rem;
+    font-size: 4rem;
+  }
+
+  a {
+    margin-right: 5rem;
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    transition: 0.4s all;
+
+    &:hover {
+      color: hsl(0, 1%, 58%);
+      transition: 0.4s all;
+    }
+  }
+}
