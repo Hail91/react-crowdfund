@@ -26,5 +26,10 @@
     color: white;
     text-decoration: none;
     font-size: 2rem;
+
+    &:hover {
+      color: hsl(0, 1%, 58%);
+      transition: 0.4s all;
+    }
   }
 }
